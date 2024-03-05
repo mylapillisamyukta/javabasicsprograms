@@ -1,15 +1,22 @@
-package myfirstprogram;
+package palindrom;
 
 public class main {
 
 	public static void main(String[] args) {
-		int x=10;
-		int y=12;
-		if(x+y>20) {
-			System.out.println("x+y is greater than 20");
+		int r,sum=0,temp;
+		int n=454;
+		temp=n;
+		while(n>0) {
+			r=n%10;
+			sum=(sum* 10)+r;
+			n=n/10;
 		}
-		
-	// TODO Auto-generated method stub
+		if(temp == sum)
+			System.out.println("palindrome number");
+		else
+			System.out.println(" not palindrome number");
+	
+		// TODO Auto-generated method stub
 
 	}
 
