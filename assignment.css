@@ -1,0 +1,74 @@
+.first{
+    background-color: burlywood;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first h1{
+    color: green;
+    text-align: center;
+}
+.first p{
+    color: brown;
+}
+ 
+.second{
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+}
+.second h1{
+    color: lavenderblush;
+    text-align: center;
+}
+.second p{
+    color: aquamarine;
+}
+.third{
+    background-color: seagreen;
+    color: white;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.third h1{
+    color: black;
+    text-align: center;
+}
+.third p{
+    color: orchid;
+}
+.fourth{
+    background-color: plum;
+    color: white;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.fourth h1{
+    color: gold;
+    text-align: center;
+}
+.fourth p{
+    color: black;
+}
