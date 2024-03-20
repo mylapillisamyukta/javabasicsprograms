@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>script tag</title>
+    </head>
+    <body>
+    <h1> HOW TO USE JAVA SCRIPT</h1>
+    <P id="p1">     </P>
+    <p id="p2">     </p>
+    <p id="p3">     </p>
+    <script>
+        let  x=200;
+        document.getElementById("p1").innerHTML=x;
+      { 
+            let y=500;
+            document.getElementById("p2").innerHTML=y;
+        }   
+        { 
+          var  z=1000;
+         // document.getElementById("p2").innerHTML=z;  --->1000
+        }
+      // document.getElementById("z").innerHTML=z;  --->nothing display
+      var p=300;
+      {
+        var p=400;
+      }
+      document.getElementById("p3").innerHTML=p;
+    </script>
+
+    </body>
+    
+</html>
