@@ -9,7 +9,7 @@ public class fileinputstream {
 		while( (i=fis.read())!=-1)
 		{
 		System.out.print((char)i);
-			}
+			}fis.close();
 		}
 		catch(Exception e)
 		{
