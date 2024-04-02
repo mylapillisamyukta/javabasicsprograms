@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+function fibonacci(num) {
+    if(num < 2) {
+        return num;
+    }
+    else {
+        return fibonacci(num-1) + fibonacci(num - 2);
+    }
+}
+
+    for(let i = 0; i < 10; i++) {
+       // console.log(fibonacci(i));
+       document.write(fibonacci(i));
+    }
+
+        </script>
+
+    </head>
+    <body>
+        <script>
+            function fibonacci(n) {
+  if (n === 0) {
+    return 0;
+  } else if (n === 1) {
+    return 1;
+  } else {
+    return fibonacci(n - 1) + fibonacci(n - 2);
+  }
+}
+
+function printFibonacciSeries(count) {
+  for (let i = 0; i < count; i++) {
+    console.log(fibonacci(i));
+  }
+}
+const count = 5;
+console.log(`Fibonacci series up to ${count} numbers:`);
+printFibonacciSeries(count);
+
+        </script>
+    </body>
+</html>
